@@ -2,7 +2,7 @@ if exists('g:loaded_textobj_heredoc') || &compatible
     finish
 endif
 let g:loaded_textobj_heredoc = 1
-let s:keepcpo = &compatible
+let s:keepcpo = &cpoptions
 set cpoptions&vim
 
 
